@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-main{
+main {
     width: 100%;
     height: 100vh;
     background: #333;
@@ -13,18 +13,19 @@ main{
     align-items: flex-start;
 }
 
-section{
+section {
     width: 50%;
     height: auto;
     background: #222;
-    float: left; /* descolar do main */
+    float: left;
+    /* descolar do main */
     border-radius: 12px;
     box-shadow: 1px 1px 3px #333;
     padding: 1%;
     margin-top: 15vh;
 }
 
-section h2{
+section h2 {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 2rem;
     text-transform: uppercase;
@@ -33,7 +34,7 @@ section h2{
     color: #fff;
 }
 
-section input{
+section input {
     width: 100%;
     height: 50px;
     margin-top: 2vh;
@@ -47,12 +48,16 @@ section input{
     background: #9F8C76;
 }
 
-::placeholder{
+::placeholder {
     color: #000;
     font-size: 1rem;
 }
 
-section button{
+section input:focus-within {
+    background: #9F8C76;
+}
+
+section button {
     width: 100%;
     height: 35px;
     margin-top: 2vh;
