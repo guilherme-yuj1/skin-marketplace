@@ -8,6 +8,7 @@ main {
     float: left;
     width: 100%;
     height: 100vh;
+    background: #9F8C76;
 }
 
 header{
@@ -15,18 +16,17 @@ header{
     justify-content: center;
     align-items: center;
     height: 20vh;
-    background: #000;
+    background: #222;
     color: #fff;
-    font-size: 2.5rem
+    font-size: 2.5rem;
 }
 
 h2 {
   height: 5vh;
   font-size: 2.5rem;
-  text-align: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: left;
+  margin-left: 1%;
   color: #000;
 }
 
@@ -34,34 +34,48 @@ h2 {
     float: left;
     width: 100%;
     height: 35vh;
+    
+}
+
+.loja {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 28vh;
 }
 
 #cs2 {
-    background: #D97A15;
+    border-top: 2px solid #000;
 }
 
 #r6 {
-    background: #F74352;
+    border-top: 2px solid #000;
 }
 
+
 .skin {
-    background: #fff;
-    width: 18%;
-    height: 15vh;
+    background: #202020;
+    width: 16%;
+    height: 22vh;
     float: left;
-    margin-left: 1.6%;
     border-radius: 15px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
+}
 
+.nome {
+    color: green;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 footer {
     width: 100%;
     height: 10vh;
-    background-color: #42D0FF;
+    background-color: #888;
     float: left;
+    border-top: 2px solid #000;
 }
 
 section {
