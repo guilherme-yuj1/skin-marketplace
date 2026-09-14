@@ -1,1 +1,1 @@
-# Weapon Skin Market
+# WeaponSkins.xyz
