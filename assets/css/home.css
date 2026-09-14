@@ -45,11 +45,11 @@ h2 {
 }
 
 #cs2 {
-    border-top: 2px solid #000;
+    border-top: 4px solid #000;
 }
 
 #r6 {
-    border-top: 2px solid #000;
+    border-top: 4px solid #000;
 }
 
 
@@ -60,14 +60,27 @@ h2 {
     float: left;
     border-radius: 15px;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img{
+    width: auto;
+    height: 50%;
 }
 
 .nome {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+    float: left;
+}
+.preco {
     color: green;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.4rem;
+    font-weight: 700;
+    float: left;
 }
 
 footer {
@@ -75,7 +88,7 @@ footer {
     height: 10vh;
     background-color: #888;
     float: left;
-    border-top: 2px solid #000;
+    border-top: 4px solid #000;
 }
 
 section {
